@@ -6,22 +6,22 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        <div class="container">
-          <div class="row">
-            <div class="footer-col-1">
+        <div className="container">
+          <div className="row">
+            <div className="footer-col-1">
               <h3>download our app</h3>
              
               <img src={img1} alt="hello" />
               <img src={img2} alt="hello" />
             </div>
-            <div class="footer-col-2">
+            <div className="footer-col-2">
                 <img src={img3} alt=""/>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
                 necessitatibus non quam voluptas veritatis magni?
               </p>
             </div>
-            <div class="footer-col-3">
+            <div className="footer-col-3">
               <h3>useful links</h3>
               <ul>
                 <li>coopen</li>
@@ -30,7 +30,7 @@ export default function Footer() {
                 <li>join affilated</li>
               </ul>
             </div>
-            <div class="footer-col-4">
+            <div className="footer-col-4">
               <h3>follow</h3>
               <ul>
                 <li>facebook</li>
@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <p class="copyright"> Copyright--2021 Rahul Websites</p>
+          <p className="copyright"> Copyright--2021 Rahul Websites</p>
         </div>
       </footer>
     </div>
